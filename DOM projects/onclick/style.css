@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.conatiner img{
+    height: 400px;
+    width:  350px;
+}
+.conatiner button{
+    padding: 8px 18px;
+    font-size: 22px;
+    border-radius: 15px;
+    font-weight: 500;
+    border: 3px solid black;
+    cursor: pointer;
+    background-color: yellow;
+    margin-top: 25px;
+}
